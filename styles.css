@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+}
+.postcard{
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    font-family:'handlee', cursive;
+    position: absolute; top: 25%;left: 25%;;
+    padding: 20px;
+}
+.postcard h1{
+    margin: 0;
+    margin-top:10px;
+    font-size: 40px;
+}
+input{
+    font-size: 22px;
+    font-family:'handlee', cursive;
+    width: 220px;
+    margin-bottom: 8px;
+}
+.pHeader{
+    overflow: hidden;
+}
+.pHeader img {
+    float: right;
+    max-width: 65px;
+}
+.pBody{
+    padding: 5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.pBodyLeft{
+    float: left;
+    width: 50%;
+}
+.pBodyRight{
+    float: right;
+    width: 45%;
+}
+.pBodyRight input{
+    display: block;
+    border: none;
+    border-bottom: 1px rgb(54, 53, 53);
+}
+.pFooter{
+    text-align: center;
+}
+.pFooter input[type=submit]{
+    background-color:rgb(#171717);
+    border: none;
+    border-bottom: 1px solid gray;
+}       
